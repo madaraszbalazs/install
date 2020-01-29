@@ -1,0 +1,21 @@
+[/]
+warn-vte-config-issue=false
+quake-specific-monitor=0
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#D0D0D0'
+visible-name='Default'
+palette=['#151515', '#A53C23', '#7B9246', '#D3A04D', '#6C99BB', '#9F4E85', '#7DD6CF', '#D0D0D0', '#505050', '#A53C23', '#7B9246', '#D3A04D', '#547C99', '#9F4E85', '#7DD6CF', '#F5F5F5']
+badge-color='#AC7EA8'
+badge-color-set=false
+default-size-columns=120
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+font='MesloLGS Nerd Font Mono 11'
+draw-margin=60
+background-color='#222222'
+background-transparency-percent=6
+dim-transparency-percent=5
