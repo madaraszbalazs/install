@@ -3,7 +3,7 @@
 # Install tilix and zsh
 sudo add-apt-repository ppa:webupd8team/terminix
 sudo apt-get update
-sudo apt-get install tilix zsh python3-pip
+sudo apt-get install curl git tilix zsh python3-pip
 sudo chsh -s /usr/bin/zsh
 
 # Install Ohmyzsh
@@ -23,3 +23,5 @@ git clone https://gitlab.com/balazs.madarasz/install.git /home/$USER/Downloads/z
 dconf load /com/gexperts/Tilix/ < /home/$USER/Downloads/zshinstall/tilix.dconf
 
 cp /home/$USER/Downloads/zshinstall/.zshrc /home/$USER/
+
+rm -rf /home/$USER/Downloads/zshinstall
