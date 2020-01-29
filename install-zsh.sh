@@ -2,7 +2,7 @@
 
 # Install tilix and zsh
 sudo add-apt-repository ppa:webupd8team/terminix
-sudo apt-get update
+sudo apt-get -y update
 sudo apt-get install curl git tilix zsh python3-pip
 sudo chsh -s /usr/bin/zsh
 
