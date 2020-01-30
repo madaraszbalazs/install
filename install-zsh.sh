@@ -12,6 +12,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Install the Powerlevel9k Theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
+# Install zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 mkdir /home/$USER/Downloads/nerd-fonts
 git clone https://github.com/ryanoasis/nerd-fonts.git /home/$USER/Downloads/nerd-fonts
 /home/$USER/Downloads/nerd-fonts/install.sh
