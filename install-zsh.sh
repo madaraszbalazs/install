@@ -4,7 +4,7 @@
 sudo add-apt-repository -y ppa:webupd8team/terminix
 sudo apt-get -y update
 sudo apt-get install -y curl git tilix zsh python3-pip
-sudo chsh -s /usr/bin/zsh
+sudo chsh -s $(which zsh)
 
 # Install Ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -18,7 +18,7 @@ git clone https://github.com/ryanoasis/nerd-fonts.git /home/$USER/Downloads/nerd
 rm -rf /home/$USER/Downloads/nerd-fonts
 
 mkdir -p /home/$USER/Downloads/zshinstall
-git clone https://gitlab.com/balazs.madarasz/install.git /home/$USER/Downloads/zshinstall
+git clone https://github.com/madaraszbalazs/install.git /home/$USER/Downloads/zshinstall
 
 dconf load /com/gexperts/Tilix/ < /home/$USER/Downloads/zshinstall/tilix.dconf
 
